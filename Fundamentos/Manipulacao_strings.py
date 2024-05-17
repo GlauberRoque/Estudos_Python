@@ -1,0 +1,26 @@
+curso = "Python"
+
+#UPPER CASE DEIXANDO MAIUSCULAS
+print(curso.upper())
+
+#LOWER CASE DEIXANDO MENUSCULAS
+print(curso.lower())
+
+#TITLE TRANSFORMANDO EM TITULO 
+print(curso.title())
+
+nome = "   Glauber   "
+#REMOVENDO OS ESPAÇOS EM BRANCO DOS DOIS LADOS DA STRING
+print(nome.strip())
+
+#REMOVENDO OS ESPAÇOS EM BRANCO DO LADO ESQUERDO DA STRING
+print(nome.lstrip())
+
+#REMOVENDO OS ESPAÇOS EM BRANCO DO LADO DIREITO DA STRING
+print(nome.rstrip())
+
+#CENTRALIZAR TEXTO COM NOVOS CARACTERES
+print(curso.center(10, "*"))
+
+#JOIN ADICIONA CARACTERES NA STRING
+print("-".join(curso))
